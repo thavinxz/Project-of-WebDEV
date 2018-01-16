@@ -1,0 +1,98 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+/* 
+hr {
+    margin-top: 8px;
+    width: 250px;
+} */
+
+.social-bar {
+    text-align: right;  
+    z-index: 3;
+    /* display: block; */
+}
+.social-bar a {
+    text-align: center;
+    padding: 10px;
+    transition: all 0.3s ease;
+    color: rgb(105, 105, 105);
+    font-size: 40px;
+}
+.social-bar a:hover {
+    color: cadetblue;
+    font-size: 45px;
+}
+
+#youtube:hover{
+    color: red;
+}
+#facebook:hover {
+    color: rgb(69, 69, 155);
+}
+.logo {
+    /* padding-top: 30px; */
+    height: 180px;
+    background-color: rgb(252, 252, 252);
+    position: relative;
+    z-index: 2;
+}
+.logo p {
+    color: rgb(110, 110, 110);
+    /* display: block; */
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.logo p #em {
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    background-color: rgb(27, 61, 53);
+    color: white;
+}
+#bgimg img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    /* background-size: cover; */
+    position: relative;
+    z-index: 1;
+}   
+/* body, html{
+    width: 100%;
+    height: 100%;
+} */
+/* .bg {
+    background-image: url(images/shark.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    backface-visibility: visible;
+} */
+.icon-bar {
+    width: 60px;
+    background-color: rgb(64, 111, 133);
+    position: fixed;
+    top: 30%; 
+    z-index: 4;
+}
+.icon-bar a{
+    display: block;
+    text-align: center;
+    padding: 15px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 25px;
+}
+.active {
+    background-color: rgb(78, 80, 79)
+}
+.icon-bar > a:hover {
+    background-color: rgb(26, 165, 96);
+}
