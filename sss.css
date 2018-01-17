@@ -1,0 +1,106 @@
+*{
+		margin: 0;
+		padding: 0;
+	}
+		.header{
+			background-color: white;
+			width: auto;
+			height: 200px;
+		}
+		.head1 img{
+			width: 500px;
+		}
+		.head1{
+			margin-left: 37%;
+			text-align: center;
+			margin-top: 20px;
+			width: 650px;
+			height: 200px;
+			position: absolute;
+			overflow: hidden;
+		}
+		.h1{
+			position: absolute;
+			font-weight: 1000;
+			font-size: 2.5em;
+		}
+		.h1 mark{
+			background-color: #0C423A;
+			color: white;
+			padding: 0 10px;
+		}
+		.a{
+			width: 50px;
+			margin: 10px;
+			float: right;
+			clear: left;
+			background-color: white;
+			filter: grayscale(100%);
+		}
+		.a3{
+			margin-top:15px;
+		}
+		.a3:hover{
+			filter: grayscale(0%);
+			transition: 0.5s;
+			width: 70px;
+		}
+		.a2:hover{
+			filter: grayscale(0%);
+			transition: 0.5s;
+			width: 70px;
+		}
+		.a1:hover{
+			filter: grayscale(0%);
+			transition: 0.5s;
+			width: 70px;
+		}
+		.nav{
+			z-index: 1;
+			width: 90px;
+			height: auto;
+			position: absolute;
+			margin:400px 0 0 -90px;
+			transition: 1s;
+			/*display: none;*/
+		}
+		.body img{
+			width: 100%;
+			height: auto;
+		}
+		.nav img{
+			width: 50px;
+			margin: -2px;
+			padding: 5px 20px;
+		}
+		.ic1{
+			background-color: dimgrey;
+		}
+		.ic2, .ic3, .ic4, .ic5{
+			background-color: #0C514D;
+
+		}
+		.ic1:hover{
+			background-color: #229954;
+		}
+		.ic2:hover{
+			background-color: #229954;
+		}
+		.ic3:hover{
+			background-color: #229954;
+		}
+		.ic4:hover{
+			background-color: #229954;
+		}
+		.ic5:hover{
+			background-color: #229954;
+		}
+		.hov{
+			height: 1380px;
+			width: 90px;
+			position: absolute;
+		}
+		.hov:hover .nav{
+			margin-left: 0px;
+		/*	display: block;*/
+		}
